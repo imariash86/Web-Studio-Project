@@ -1,0 +1,197 @@
+:root {
+  --color-txt-primary: #212121;
+  --color-txt-secondary: #757575;
+  --color-txt-accent-primary: #2196f3;
+  --color-txt-accent-secondary: #ffffff;
+  --color-txt-contacts: rgba(255, 255, 255, 0.6);
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #2f303a;
+}
+
+body {
+  background-color: var(--color-txt-accent-secondary);
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.logo {
+  color: var(--color-txt-accent-primary);
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.nav-list-item > a {
+  color: var(--color-txt-primary);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contHead-list-item > a {
+  color: var(--color-txt-secondary);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.nav-list-item > a:hover,
+.nav-list-item > a:focus,
+.contHead-list-item > a:hover,
+.contHead-list-item > a:focus {
+  color: var(--color-txt-accent-primary);
+}
+
+.hero {
+  background-color: var(--color-bg-secondary);
+}
+
+.hero > h1 {
+  color: var(--color-bg-primary);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero > button {
+  color: var(--color-bg-primary);
+  background-color: var(--color-txt-accent-primary);
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.adv-list-item > h3 {
+  color: var(--color-txt-primary);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.adv-list-item > p {
+  color: var(--color-txt-secondary);
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.weDo-header,
+.ourTeam-header {
+  color: var(--color-txt-primary);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.ourTeam {
+  background-color: #f5f4fa;
+}
+
+.ourTeam-list-item > h3 {
+  color: var(--color-txt-primary);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.ourTeam-list-item > p {
+  color: var(--color-txt-secondary);
+
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+footer {
+  background-color: var(--color-bg-secondary);
+}
+
+.foo-list-item > a {
+  color: var(--color-txt-contacts);
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.foo-list-item > .foo-address {
+  color: var(--color-txt-accent-secondary);
+}
+
+/*portfolio page*/
+
+.portfolio-btn-list-item > button {
+  color: var(--color-txt-primary);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.portfolio-btn-list-item > button:hover,
+.portfolio-btn-list-item > button:focus {
+  color: var(--color-bg-primary);
+  background-color: var(--color-txt-accent-primary);
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.portfolio-works-list-item > h2 {
+  color: var(--color-txt-primary);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-works-list-item > p {
+  color: var(--color-txt-secondary);
+
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
